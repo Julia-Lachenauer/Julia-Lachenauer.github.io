@@ -3,13 +3,15 @@
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<style>
-		h1 {font-family: "Raleway", sans-serif;
-				color : white;
-				font-size : 36px;}
+		h1 {
+				font-family: "Raleway", sans-serif;
+				color : #d8d4d6;
+				font-size : 36px;
+			}
 
 		h2 {
 				font-family: "Raleway", sans-serif;
-				color : #dfdeea;
+				color : #a8a6a7;
 				font-size : 14px;
 			}
 		ul {
@@ -22,31 +24,36 @@
 		    list-style-type: none;
 		    margin: 0;
 		    padding: 0;
-				background: #665b5f;
+    		overflow: hidden;
+				background: #14162b;
 				padding: 14px;
 			}
 
 
 			a {
-    		color: #c1bfc0;
+    		color: #c6cecd;
 			}
 
 			li a{
-			float: left;
-			text-align: center;
-			padding: 1px 16px;
+				float: left;
+				text-align: center;
+				padding: 1px 16px;
+				text-decoration: none;
 			}
 
 			a:visited {
 			    color: #e5a0c3;
+					text-decoration: none;
 			}
 
 			li .activeLink {
-				background-color : #6f6e87
+				color: #c1bfc0;
+				text-decoration: none;
 			}
 
 			li a:hover:not(.activeLink) {
     		background-color: #876e6e;
+				text-decoration: none;
 			}
 
 	</style>
@@ -65,13 +72,6 @@
         }
 </script>
 
-<script>
-	function mouseOverLink()
-		{
-
-		}
-</script>
-
 <body>
 	<body background="lightning.jpg">
 	<br>
@@ -79,17 +79,24 @@
 	<h1 style="color:cecdd6; text-align:center">Julia Lachenauer</h1>
 	<br>
 	<hr style="width:40%">
-	<ul>
-		<li><a href="website.html">Home</a></li>
-		<li><a class="aboutMe.html">About Me</a></li>
-		<li><a href="likesAndDislikes.html">Likes and Dislikes</a></li>
-		<li><a href="pictures.html">Pictures</a></li>
-	</ul>
+	 <ul>
+		<li>
+      <a href="website.html">Home</a>
+    </li>
+		<li>
+      <a class="activeLink" href="aboutMe.html">About Me</a>
+    </li>
+		<li>
+      <a href="likesAndDislikes.html">Likes and Dislikes</a>
+    </li>
+		<li>
+      <a href="pictures.html">Pictures</a>
+    </li>
+	 </ul>
 	<br>
 	<h2 style="font-size : 20px">About Me:</h2>
 	<br>
 	<h2>Bio: Hi. I'm julia. I want to be a software developer. I like to make games.</h2>
 	<h2>Fun fact: I don't like soda.<br><br>Favorite websites: <a href="google.com">google.com</a> </h2>
 </body>
-
 </html>
