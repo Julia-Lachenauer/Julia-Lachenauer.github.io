@@ -61,5 +61,5 @@ li a:hover:not(.activeLink) {
 }
 
 body {
-  background="Website_Background.jpg";
+  background-image: url("Website_Background.jpg");
 }
