@@ -8,6 +8,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   color: #a8a6a7;
   font-size: 14px;
+  margin: 35px;
 }
 
 ul {
@@ -23,6 +24,13 @@ ul {
   overflow: hidden;
   background: #14162b;
   padding: 14px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: #bfb9bc;
+  font-size: 12px;
+  margin: 40px;
 }
 
 a {
