@@ -1,65 +1,60 @@
 h1 {
-  font-family: "Raleway", sans-serif;
-  color: #d8d4d6;
-  font-size: 36px;
-  text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #d8d4d6;
+    font-size: 36px;
+    text-align: center;
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
-  color: #a8a6a7;
-  font-size: 20px;
-  margin-left: 35px;
+    font-family: "Raleway", sans-serif;
+    color: #a8a6a7;
+    font-size: 20px;
+    margin-left: 35px;
 }
 
 ul {
-  font-family: "Raleway", sans-serif;
-  color: white;
-  font-size: 18px;
-  top: 0;
-  width: 100%;
-  position: fixed;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #14162b;
-  padding: 14px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 18px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #14162b;
 }
 
 p {
-  font-family: "Raleway", sans-serif;
-  color: #bfb9bc;
-  font-size: 14px;
-  margin-left: 40px;
+    font-family: "Raleway", sans-serif;
+    color: #bfb9bc;
+    font-size: 14px;
+    margin-left: 40px;
 }
 
 a {
-  color: #c6cecd;
+    color: #c6cecd;
 }
 
 li a {
-  float: left;
-  text-align: center;
-  padding: 1px 16px;
-  text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
 }
 
 a:visited {
-  color: #e5a0c3;
-  text-decoration: none;
+    color: #e5a0c3;
+    text-decoration: none;
 }
 
 li .activeLink {
-  color: #c1bfc0;
-  text-decoration: none;
+    color: #c1bfc0;
+    text-decoration: none;
 }
 
 li a:hover:not(.activeLink) {
-  background-color: #876e6e;
-  text-decoration: none;
-}
-
-body {
-  background-image: url("Website_Background.jpg");
+    background-color: #876e6e;
+    text-decoration: none;
 }
