@@ -2,13 +2,14 @@ h1 {
   font-family: "Raleway", sans-serif;
   color: #d8d4d6;
   font-size: 36px;
+  text-align: center;
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
   color: #a8a6a7;
-  font-size: 14px;
-  margin: 35px;
+  font-size: 20px;
+  margin-left: 35px;
 }
 
 ul {
@@ -29,8 +30,8 @@ ul {
 p {
   font-family: "Raleway", sans-serif;
   color: #bfb9bc;
-  font-size: 12px;
-  margin: 40px;
+  font-size: 14px;
+  margin-left: 40px;
 }
 
 a {
@@ -57,4 +58,8 @@ li .activeLink {
 li a:hover:not(.activeLink) {
   background-color: #876e6e;
   text-decoration: none;
+}
+
+body {
+  background="Website_Background.jpg";
 }
