@@ -23,6 +23,7 @@ ul {
     margin: 0;
     padding: 0;
     background: #14162b;
+    overflow: hidden;
     padding: 14px;
 }
 
