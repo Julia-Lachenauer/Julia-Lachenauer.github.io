@@ -1,4 +1,4 @@
-# Portfolio
+# Julia Lachenauer's Portfolio
 
 Visit my portfolio at:
 
